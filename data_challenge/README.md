@@ -4,4 +4,4 @@ The following data challenge is a test designed to evaluate machien learning and
 >To mitigate these losses, they made the difficult decision to discontinue offering credit to customers, a move that, while effective in reducing incidents, has also caused a rift with some of their loyal and solvent clientele. 
 >This rift has translated into a significant downturn in revenue. Determined to find a solution that balances security and customer satisfaction, they aim to develop an automated model that leverages historical credit data to guide their decisions on whether to extend credit to new customers, thus navigating the delicate balance between risk and customer trust.
 
-To solve the challenge, I developed a logistic regression model using 
+To solve the challenge, I developed a logistic regression model using sklearn library to predict the target variable ('TARGET') based on selected features from training data. It utilizes cross-validation for model evaluation and determines the optimal threshold for classification using F1 score. Finally, it applies the trained model to the test data and exports the predictions to a CSV file.
